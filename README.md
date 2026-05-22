@@ -6,7 +6,7 @@ The goal of this tool is to facilitate the integration of high-throughput brain 
 ![Schematic Overview](Figures/CCP_schema.png)
 
 ## Citation
-This workflow has been used in the following published work:
+This workflow has been used in the following published work:  
 Timonidis, Nestor, Rembrandt Bakker, and Paul Tiesinga. "Prediction of a cell-class-specific mouse mesoconnectome using gene expression data." Neuroinformatics 18.4 (2020): 611-626. Link:  https://link.springer.com/content/pdf/10.1007/s12021-020-09471-x.pdf   
 
 ## Details

@@ -1,9 +1,15 @@
-                                         Connectomic Composition Predictor       
+# Connectomic Composition Predictor       
 
-Springer Neuroinformatics Link:  https://link.springer.com/content/pdf/10.1007/s12021-020-09471-x.pdf   
-
+## Description
 The goal of this tool is to facilitate the integration of high-throughput brain related data sources in order to predict and complete a more spatially accurate mouse brain mesoconnectome. Based on the premise that gene expression plays a pivotal role in synapse formation during brain development and homeostasis, the quantity and quality of connectivity information present in gene expression atlases should be assessed. A potential approach is to train supervised machine learning algorithms with gene expression data on the task of learning and predicting  structural connectivity patterns.
 
+![Schematic Overview](Figures/CCP_schema.png)
+
+## Citation
+This workflow has been used in the following published work:
+Timonidis, Nestor, Rembrandt Bakker, and Paul Tiesinga. "Prediction of a cell-class-specific mouse mesoconnectome using gene expression data." Neuroinformatics 18.4 (2020): 611-626. Link:  https://link.springer.com/content/pdf/10.1007/s12021-020-09471-x.pdf   
+
+## Details
 For the aforementioned purpose, two brain atlas related data modalities were utilized: 
 
    1. In situ hybridization (ISH) based gene expression dataset containing the expression energy of 3318 genes for ~1030 spatially distinct mouse brain areas [1].
@@ -51,7 +57,7 @@ Regarding the execution of jupyter notebook scripts it is important to make a di
 
 Last but not least, the collaboratory is in public mode which means that all notebooks can be displayed to the user but are not directly executable. For a notebook to be executable, the user has to clone it in a personal collaboratory using the clone button at the top right of the screen.
 
-References
+## References
 
 [1] E.S. Lein, M.J. Hawrylycz, A. Nancy et al. Genome-wide atlas of gene expression in the adult mouse brain. Nature, 445:168-176, 2007.
 
